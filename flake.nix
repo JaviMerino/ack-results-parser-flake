@@ -10,7 +10,7 @@
       packages.default = let
         python-hwinfo = pkgs.python3Packages.buildPythonPackage rec {
           pname = "python-hwinfo";
-          version = "0.1.6";
+          version = "0.1.7";
           # fetchPypi can't be used because pypi is behind the original package https://github.com/rdobson/python-hwinfo . This in turn can't be used because it does not have python3 support.  https://github.com/rdobson/python-hwinfo/pull/25 adds support for python3
           src = pkgs.fetchFromGitHub {
             owner = "alexhimmel";
