@@ -28,11 +28,12 @@
           pname = "ack-results-parser";
           # Upstream does not do versions
           version = "0.1.0";
+          # Temporarily get my python3 conversion branch
           src = pkgs.fetchFromGitHub {
-            owner = "xenserver";
+            owner = "JaviMerino";
             repo = "ack-results-parser";
-            rev = "ccb4a556b241a95c8a498738b2fcb62a8471151e";
-            hash = "sha256-NQvzdXgRpoMNWQGzOI7svoRBHuRBX1kVC39u6yvLAwU=";
+            rev = "a09a9024e19e46eff8d9a35941bdc7a984a3e501";
+            hash = "sha256-CpcKhyvbDSkr6ZV/qtUNeiHBSFKKYqt2prCDZ+eMTik=";
           };
           # nose tests have not been converted to python3
           doCheck=false;
