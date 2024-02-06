@@ -27,7 +27,7 @@
         pkgs.python3Packages.buildPythonPackage {
           pname = "ack-results-parser";
           # Upstream does not do versions
-          version = "0.1.0";
+          version = "0.1.0-a09a9024e19e";
           # Temporarily get my python3 conversion branch
           src = pkgs.fetchFromGitHub {
             owner = "JaviMerino";
